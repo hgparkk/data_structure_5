@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0e6d5406-34ca-4c5d-949e-8a61439e2483}</ProjectGuid>
-    <RootNamespace>linkedStackExample</RootNamespace>
+    <ProjectGuid>{11d5097f-caef-40f6-a871-8b40e182d8cf}</ProjectGuid>
+    <RootNamespace>printLinkedQueue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="linkedStackExample.c">
+    <ClCompile Include="printLinkedQueue.c">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
     </ClCompile>
   </ItemGroup>
